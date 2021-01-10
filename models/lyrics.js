@@ -6,6 +6,16 @@ const LyricSchema = new mongoose.Schema({
       trim: true,
       required: 'Put the lyric in the text box'
    },
+   songTitle: {
+      type: String,
+      trim: true,
+      required: 'Please put the song title.'
+   },
+   artistName: {
+      type: String,
+      trim: true,
+      required: 'Please put the artist name.'
+   },
    spotifyUrl: String,
    appleMusicUrl: String,
    datePosted: {

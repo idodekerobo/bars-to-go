@@ -6,16 +6,15 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <link rel="icon" href="../public/img/favicon.png">
-   <title>Lyrics To-Go</title>
+   <title>Bars To-Go</title>
 
    <!-- FONTS -->
-   <link href="https://fonts.googleapis.com/css?family=Raleway:400,500&display=swap" rel="stylesheet">
+   <!-- <link href="https://fonts.googleapis.com/css?family=Raleway:400,500&display=swap" rel="stylesheet"> -->
 
    <!-- FONT AWESOME -->
-   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"
-      integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous">
+   <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" -->
+      <!-- integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous"> -->
    <!-- STYLE SHEET -->
-   <!-- <link rel="stylesheet" href="../public/css/index.css"> -->
    <link rel="stylesheet" href="../public/css/index.css">
 </head>
 
@@ -24,12 +23,20 @@
       
 
       <main>
-         <h1>Start Saving Lyrics</h1>
+         <h1>Bars To Go</h1>
 
          <form method="POST" action="/post">
             <label for="lyric">
                Lyrics
                <input type="text" name="lyric">
+            </label>
+            <label for="songTitle">
+               Song Title
+               <input type="text" name="songTitle">
+            </label>
+            <label for="artistName">
+               Artist Name
+               <input type="text" name="artistName">
             </label>
             <label for="spotifyUrl">
                Spotify URL (Optional)
