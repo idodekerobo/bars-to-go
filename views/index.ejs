@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="icon" href="../public/img/favicon.png">
+   <title>Lyrics To-Go</title>
+
+   <!-- FONTS -->
+   <link href="https://fonts.googleapis.com/css?family=Raleway:400,500&display=swap" rel="stylesheet">
+
+   <!-- FONT AWESOME -->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"
+      integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous">
+   <!-- STYLE SHEET -->
+   <!-- <link rel="stylesheet" href="../public/css/index.css"> -->
+   <link rel="stylesheet" href="../public/css/index.css">
+</head>
+
+<body>
+   <div class="page-wrapper">
+      
+
+      <main>
+         <h1>Start Saving Lyrics</h1>
+
+         <form method="POST" action="/post">
+            <label for="lyric">
+               Lyrics
+               <input type="text" name="lyric">
+            </label>
+            <label for="spotifyUrl">
+               Spotify URL
+               <input type="text" name="spotifyUrl">
+            </label>
+            <label for="appleMusicUrl">
+               Apple Music URL
+               <input type="text" name="appleMusicUrl">
+            </label>
+            <input type="submit">
+         </form>
+      </main>
+
+      
+   </div>
+   <script src="../public/js/index.js"></script>
+</body>
+
+</html>
