@@ -8,6 +8,10 @@ const LyricSchema = new mongoose.Schema({
    },
    spotifyUrl: String,
    appleMusicUrl: String,
+   datePosted: {
+      type: Date,
+      default: Date.now()
+   }
 })
 
 const Lyric = mongoose.model('Lyric', LyricSchema);
